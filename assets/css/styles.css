@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background: url('../images/map1.jpg') #333;
+  background-size: cover;
+  color: #dc3545;
+  font-size: 16px;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 30%;
+}
+
+.widget {
+  width: 35%;
+  margin: 2em;
+}
+
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.date-box {
+  font-family: Oswald, Arial;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 0.3100rem;
+  background: rgba(180,180,180,.1);
+  padding: 18px;
+  width: 100%;
+}
+
+.clock {
+  font-family: Oswald, Arial;
+  width: 100%;
+  padding: 20px;
+  font-size: 3.5em;
+  text-align: center;
+  background: rgba(180,180,180,.1);
+}
+
+.clock .box-seconds {
+  display: inline-block;
+}
+
+.clock .seconds,
+.clock .apmp {
+  font-size: 1.7rem;
+  display: block;
+}
