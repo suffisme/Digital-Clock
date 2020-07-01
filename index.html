@@ -8,28 +8,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="wrap">
-   <div class="widget">
-     <div class="date-box">
-       <p id="day" class="day"></p>,
-       <p id="date" class="date"></p>
-       <p id="month" class="month"></p>
+  <div class="mb" style="display: flex; flex-direction: column;">
+    <div class="widget">
+    <div class="date-box" style="display: flex;">
+       <p id="day" class="day"></p>, &nbsp;
+       <p id="date" class="date"></p>  &nbsp;
+       <p id="month" class="month"></p>  &nbsp;
        <p id="year" class="year"></p>
      </div>
-
-     <div class="clock">
+     <div class="clock"  style="display: flex;">
        <p id="hours" class="hours"></p>
-       <p>:</p>
-       <p id="minutes" class="minutes"></p>
-       <p>:</p>
-        <div class="box-seconds">
-         <p id="session" class="session"></p>
-         <p id="seconds" class="seconds"></p>
+        <p>:</p>
+        <p id="minutes" class="minutes"></p>
+        <p>:</p>
+        <div class="box-seconds" style="display: inline-flex;">
+          <p id="seconds" class="session" style="float: right;"></p>
+          <p id="session" class="seconds"></p>
         </div>
       </div>
-   </div>
+    </div>
   </div>
-
  <script src="assets/scripts/clock.js"></script>
 
 </body>
